@@ -1,4 +1,5 @@
-# SWYNEX – Data Cleaning & Preparation
+# SWYNEX_Internship
+# Task -1: Data Cleaning & Preparation
 
 ## Project Overview
 
@@ -57,3 +58,71 @@ The cleaned datasets will be used for:
 ## Project Status
 
 **Task 1 – Data Cleaning & Preparation: Completed**
+
+
+# Task - 2: Exploratory Data Analysis (EDA) — Road Accident Analysis
+
+## 1. Objective
+
+To perform exploratory data analysis on the cleaned road accident dataset from Task 1, calculate important statistics, identify trends and patterns, and present useful insights through SQL analysis and Excel charts.
+
+## 2. Tools Used
+
+* **Microsoft Excel:** Data review, tabular analysis, and chart creation.
+* **MySQL Workbench:** SQL queries, aggregations, state-wise comparisons, and trend analysis.
+* **GitHub:** Project documentation and version control.
+
+## 3. Analysis Performed
+
+Exploratory analysis was conducted on the cleaned accidents and fatalities datasets using SQL.
+
+### Road Accidents Analysis
+
+1. Compared total reported accidents from 2020 to 2024.
+2. Identified the top 10 states by reported accidents in 2024.
+3. Compared state-wise changes in accidents between 2023 and 2024.
+
+### Road Fatalities Analysis
+
+1. Identified the top 10 states by fatalities in 2024.
+2. Compared total fatalities from 2020 to 2024.
+3. Identified states with the largest increases in fatalities between 2023 and 2024.
+
+## 4. Key Insights
+
+1. **Increase in reported road accidents:** Total reported accidents increased from 372,181 in 2020 to 487,707 in 2024, a rise of approximately 31.04%.
+
+2. **Slowing accident growth:** Annual accident growth slowed to 1.48% in 2024, compared with 11.85% in 2022. However, the total number of reported accidents continued to rise.
+
+3. **States with the highest accident counts:** Tamil Nadu recorded the highest number of reported accidents in 2024, with 67,526, followed by Madhya Pradesh with 56,669 and Kerala with 48,834.
+
+4. **Increase in road fatalities:** Total reported fatalities rose from 138,383 in 2020 to 177,175 in 2024, an increase of approximately 28.03%.
+
+5. **State with the highest fatalities:** Uttar Pradesh recorded the highest number of fatalities in 2024, with 24,118, followed by Tamil Nadu with 18,449.
+
+6. **Largest increase in fatalities:** Madhya Pradesh recorded the largest absolute increase among the states analyzed, with 993 additional fatalities from 2023 to 2024. Chhattisgarh had the highest percentage increase among the ten states with the largest absolute increases, at 12.63%.
+
+7. **Unusual state-level pattern:** Nagaland showed a substantial decline in reported accidents from 500 in 2020 to 129 in 2024, a decrease of approximately 74.2%. This unusual change may warrant further investigation; the available figures alone do not explain its cause.
+
+## 5. Charts and Visualizations
+
+Three charts were created in Microsoft Excel:
+
+1. Road Accidents Trend (2020–2024) — line chart showing annual changes in reported accidents.
+2. Top 10 States by Road Accidents in 2024 — horizontal bar chart comparing state-wise accident counts.
+3. Road Fatalities Trend (2020–2024) — line chart showing annual changes in reported fatalities.
+
+## 6. Conclusion
+
+The exploratory analysis identified an overall increase in reported road accidents and fatalities between 2020 and 2024, differences in accident and fatality counts across states, and notable state-level changes between 2023 and 2024. The charts provide a clear visual summary of the main trends, while the SQL queries support the numerical findings.
+
+These findings describe patterns in the available data and do not establish the causes of the observed changes.
+
+## 7. Project Files
+
+* **Cleaned Datasets:** The cleaned accidents, fatalities, and collisions CSV files from Task 1.
+* **SQL Queries:** [`road_accident_eda.sql`](road_accident_eda.sql) — SQL queries used for exploratory analysis.
+* **Excel Workbook:** [`Road_Accident_Analysis.xlsx`](Road_Accident_Analysis.xlsx) — contains cleaned data, PivotTables, charts, and EDA calculations.
+
+** Task - 2: Exploratory Data Analysis (EDA) - Completed **
+
