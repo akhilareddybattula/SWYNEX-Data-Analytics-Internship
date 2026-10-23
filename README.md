@@ -160,3 +160,33 @@ The findings reflect the supplied dataset and its available categories and shoul
 ** Task 3: Interactive Power BI Dashboard - Completed **
 
 
+## Task 4: Final Data Analytics Project
+
+### Project Overview
+This project combines the data cleaning, exploratory data analysis, SQL analysis, and interactive dashboard developed during Tasks 1–3 into a complete road accident analytics case study.
+
+### Problem Statement
+To analyze road accident data across Indian states from 2020 to 2024, identify yearly trends and state-wise patterns, and present key findings through an interactive Power BI dashboard.
+
+### Project Deliverables
+- Cleaned datasets for accidents, fatalities, and collision categories.
+- Exploratory data analysis using Excel and MySQL.
+- SQL queries for yearly trends and state-wise comparisons.
+- Interactive Power BI dashboard with KPI cards, charts, and slicers.
+- Final case study report documenting the methodology, analysis, insights, and recommendations.
+
+### Key Insights
+- Total recorded accidents increased from 372,181 in 2020 to 487,707 in 2024.
+- Accidents increased by approximately 31.04% between 2020 and 2024.
+- The annual increase slowed to approximately 1.48% in 2024 compared with 2023.
+- Road fatalities increased from 138,383 in 2020 to 177,175 in 2024.
+- State-wise analysis showed differing patterns, with some states recording increases and others decreases in accidents between 2023 and 2024.
+
+### Tools Used
+Microsoft Excel, MySQL Workbench, Power BI, GitHub.
+
+### Final Case Study Report
+The complete project report, including the problem statement, dataset overview, cleaning process, analysis, dashboard, and key insights, is available in the `Case_Study` folder.
+
+### Conclusion
+This project demonstrates an end-to-end data analytics workflow, from data preparation and exploratory analysis to SQL-based insights, interactive visualization, and project documentation.
