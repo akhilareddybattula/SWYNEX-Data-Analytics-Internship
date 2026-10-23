@@ -126,3 +126,37 @@ These findings describe patterns in the available data and do not establish the 
 
 ** Task - 2: Exploratory Data Analysis (EDA) - Completed **
 
+
+## Task 3: Interactive Power BI Dashboard
+
+### Objective
+To build an interactive dashboard that presents key insights from India's road accident data for 2020–2024.
+
+### Tools Used
+- Microsoft Power BI
+- Power Query
+- DAX
+- Excel and SQL for data preparation and analysis
+
+### Dashboard Features
+- KPI cards for total accidents, fatalities, and injuries
+- State-wise accident analysis
+- Collision-type analysis
+- Fatalities trend from 2020 to 2024
+- Interactive State and Collision Type slicers
+
+### Key Insights
+- Total reported accidents increased from 372,181 in 2020 to 487,707 in 2024.
+- Reported fatalities increased from 138,383 in 2020 to 177,175 in 2024.
+- The dashboard enables users to explore state-wise and collision-type patterns using interactive filters.
+
+### Deliverables
+- Interactive Power BI dashboard (`.pbix`)
+- Cleaned datasets and analysis files available in this repository.
+
+### Note
+The findings reflect the supplied dataset and its available categories and should be interpreted within that scope.
+
+** Task 3: Interactive Power BI Dashboard - Completed **
+
+
